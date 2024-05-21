@@ -1,0 +1,30 @@
+
+.navbar {
+    background-color: #7998A7;
+}
+
+.dropdown-menu {
+    background-color: #C2D1DC;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #A7B5C4;
+    color: #000;
+}
+
+.dropdown-menu .dropdown-item:visited {
+    background-color: #A7B5C4;
+    color: #000;
+}
+
+.card {
+    margin-top: 20px;
+    width: 500px;
+    height: 550px
+}
+
+.card-img-top {
+    margin-top: 10px;
+    width: 400px;
+    height: auto;
+}
