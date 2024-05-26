@@ -22,10 +22,10 @@
     height: 550px;
     margin-bottom: 20px;
     margin-top: 20px;
+    background-color: #f4f1deb7;
 }
 
 .card-img-top {
     margin-top: 10px;
-    width: 400px;
-    height: auto;
+    border: 3px, #2F4F4F, solid;
 }
