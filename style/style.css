@@ -6,6 +6,7 @@
     background-color: #7998A7;
     font-family: "Noto Sans", sans-serif;
     height: 100%;
+    z-index: 1000;
 }
 
 .dropdown-menu {
