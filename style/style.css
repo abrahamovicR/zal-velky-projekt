@@ -32,7 +32,7 @@
 .card-img-top {
     margin-top: 10px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right    : 20px;
     border: 3px #2F4F4F solid;
     height: auto;
     width: 500px;
@@ -40,9 +40,13 @@
 
 #carousel {
     width: 900px;
-    height: auto;
-    border: 2px black solid;
 }
+
+.carousel-inner img {
+    height: 500px;
+    width: auto;
+}
+
 
 .carousel-text {
     background-color: white;
@@ -52,6 +56,18 @@
 
 .text-start {
     padding-top: 50px;
+}
+
+@media only screen and (max-width: 576px) {
+    #carousel {
+        width: 350px;
+    }
+    
+    .carousel-inner img {
+        height: 250px;
+        width: auto;
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -70,6 +86,16 @@
     .carousel-text {
         font-size: 15px;
     }
+
+    #carousel {
+        width: 600px;
+    }
+    
+    .carousel-inner img {
+        height: 350px;
+        width: auto;
+    }
+    
 }
 
 @media only screen and (max-width: 1400px) {
